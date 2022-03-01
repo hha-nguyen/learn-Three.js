@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vite App</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;1,400&family=Livvic:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+      body{
+        margin: 0;
+        --webkit-font-smoothing: antialiased;
+      }
+
+      .font-exo{
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        font-style: italic;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="absolute text-white text-center"
+        style="top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);"
+      >
+        <h1>Mesto</h1>
+        <p class="font-exo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio rerum unde illum quibusdam laborum temporibus hic placeat vero. Debitis, nihil illo delectus fuga voluptatibus facere quam repellat iure veniam?</p>
+        <button class="border px-4 py-2 rounded-lg text-sm font-space-mono uppercase mt-8 hover:bg-white hover:text-gray-800">Lorem</button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
